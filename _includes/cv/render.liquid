@@ -194,7 +194,13 @@
                   {% elsif entry.label %}
                     <ul class="card-text font-weight-light list-group list-group-flush" style="list-style-type: none;">
                       <li class="list-group-item" style="list-style-type: none;">
-                        <strong>{{ entry.label }}:</strong> {{ entry.details }}
+                        <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="ml-1 ml-md-4">
+                              <strong>{{ entry.label }}:</strong> {{ entry.details }}
+                            </div>
+                          </div>
+                        </div>
                       </li>
                     </ul>
                   {% endif %}
