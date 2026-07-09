@@ -2,28 +2,34 @@
   Unified skills entry renderer for both formats
 {% endcomment %}
 
-<div class="card-text font-weight-light">
+<ul class="card-text font-weight-light list-group list-group-flush" style="list-style-type: none;">
   {% for entry in entries %}
-    <div class="skill-item">
-      {% if entry.icon %}
-        <i class="{{ entry.icon }}"></i>
-      {% endif %}
-      <strong>
-        {{- entry.name -}}
-        {%- if entry.level %} ({{ entry.level }}){% endif %}:</strong
-      >
-      {% if entry.keywords %}
-        {% for keyword in entry.keywords %}
-          {% if forloop.last %}
-            {{ keyword }}
-          {% else %}
-            {{ keyword }},
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-    </div>
+    <li class="list-group-item" style="list-style-type: none;">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="ml-1 ml-md-4">
+            {% if entry.icon %}
+              <i class="{{ entry.icon }}"></i>
+            {% endif %}
+            <strong>
+              {{- entry.name -}}
+              {%- if entry.level %} ({{ entry.level }}){% endif %}:</strong
+            >
+            {% if entry.keywords %}
+              {% for keyword in entry.keywords %}
+                {% if forloop.last %}
+                  {{ keyword }}
+                {% else %}
+                  {{ keyword }},
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </li>
   {% endfor %}
-</div>
+</ul>
 
 <style>
   .skill-item {
