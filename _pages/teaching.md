@@ -134,7 +134,7 @@ nav_order: 6
 
 <div class="custom-page-header">
   <div class="header-status"><i class="fa-solid fa-square"></i> INSTRUCTION_CHANNEL_ACTIVE</div>
-  <h1 class="header-title">TEACHING<span style="color: #006b75;">_CORE</span></h1>
+  <h1 class="header-title">TEACHING</h1>
   <div class="header-description">10+ years teaching cybersecurity, systems administration, networking, and support, with current focus on AI integrated instruction.</div>
 </div>
 
