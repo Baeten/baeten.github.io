@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Explore a curated collection of self-hosted, open-source projects designed to help students build practical skills, manage real-world services, and expand their own lab environments.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
