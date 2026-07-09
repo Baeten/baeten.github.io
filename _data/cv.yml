@@ -1,10 +1,10 @@
 cv:
-  name: Tyler Baeten, Ed.D.
-  label: IT & Cybersecurity Instructor | CISM, CEH, ITIL, Pentest+ | Curriculum Design & Workforce Development Strategy | Bridging Academia & InfoSec Ops
-  email: 
+  name: Tyler Michael Baeten
+  label: IT & Cybersecurity Instructor | Ed.D.
+  email: tylerbaeten@pm.me
   location: Appleton, Wisconsin, United States
   image: ""
-  summary: I sit at the intersection of higher education and practical cybersecurity operations. With over a decade of experience and a Doctor of Education (Ed.D.), I don't just teach IT concepts; I design workforce-ready curricula that prepare students for the hostile reality of modern cyber threats.
+  summary: Doctor of Education (Ed.D.) and IT educator with 10+ years of experience developing and delivering online curricula in cybersecurity, networking, and systems administration. Proven ability to translate complex technical concepts into engaging, student-centered instruction for adult and non-traditional learners. Experienced in academic innovation, AI-enhanced learning technologies, and national assessment work through CAEL. Dedicated to improving student success through accessible technology education.
 
   social_networks:
     - network: LinkedIn
@@ -14,163 +14,201 @@ cv:
 
   sections:
     Education:
-      - institution: UW-Stout Polytechnic
+      - institution: University of Wisconsin Stout
         location: Menomonie, WI
         area: Career and Technical Education Leadership
-        studyType: Doctor of Education - Ed.D.
+        studyType: Doctor of Education (Ed.D.)
         start_date: "2022"
         end_date: "2025"
-        summary: 'Dissertation: "The Influence of Artificial Intelligence Adoption on Educator Perceptions"'
-        highlights:
-          - Investigated the impact of Artificial Intelligence integration on faculty attitudes, instructional strategies, and workforce readiness in technical education.
-          - Recipient of the Howard and Charlotte Lee Scholarship and the Career & Technical Education Scholarship.
+        summary: 'Dissertation: The Influence of Artificial Intelligence Adoption on Educator Perceptions'
 
-      - institution: UW-Stout Polytechnic
+      - institution: University of Wisconsin Stout
         location: Menomonie, WI
         area: Information and Communication Technologies
         studyType: Master of Science (MS)
-        start_date: "2012"
-        end_date: "2015"
-        score: "4.0"
+        start_date: "2015"
 
-      - institution: UW-Stout Polytechnic
+      - institution: University of Wisconsin Stout
         location: Menomonie, WI
         area: Information and Communication Technologies
         studyType: Bachelor of Science (BS)
-        start_date: "2010"
-        end_date: "2012"
-        score: "3.9"
-        highlights:
-          - "Activities and societies: Stout Academic Honor Society (AHS)"
+        start_date: "2012"
 
       - institution: Fox Valley Technical College
         location: Appleton, WI
-        area: Information Technology & Networking
+        area: Information Technology Network Specialist
         studyType: Associate of Applied Science (AAS)
-        start_date: "2008"
-        end_date: "2009"
-        score: "3.6"
-        highlights:
-          - "Activities and societies: Phi Theta Kappa, Association of Information Technology Professionals"
+        start_date: "2009"
 
-    Experience:
+    Management & Service Credentials:
+      - label: Certified Information Security Manager (CISM)
+        details: ISACA (active through 2029)
+      - label: ITIL Foundations v4
+        details: PeopleCert (active through 2027)
+
+    Cybersecurity Credentials:
+      - label: Certified Ethical Hacker (CEH)
+        details: EC-Council (active through 2026)
+      - label: Security+, PenTest+, Network Vulnerability Assessment Professional
+        details: CompTIA (active through 2030)
+
+    Instructor Credentials:
+      - label: Cisco Certified Academy Instructor
+        details: IT Essentials; CCNAv7 (Introduction to Networks; Switching, Router, and Wireless Essentials; Enterprise Networking, Security, and Automation)
+
+    Cloud & Foundational Credentials:
+      - label: Microsoft Fundamentals
+        details: Azure, Azure AI, Azure Data, Security, Compliance, and Identity, Power Platform
+      - label: TestOut
+        details: IT Fundamentals Pro, PC Pro
+
+    Academic & Teaching Experience:
       - company: Fox Valley Technical College
         position: Information Technology Instructor
-        location: Appleton, Wisconsin
+        location: Appleton, WI
         start_date: "2014-08"
         end_date: Present
-        summary: "Doctoral-prepared instructor with over a decade of tenure, responsible for the design and delivery of workforce-ready curriculum in Cybersecurity, Network Administration, and Automation."
+        summary: "Lead Instructor for Infrastructure Automation, Operating Systems Security, IT Project Management, and Linux Essentials."
         highlights:
-          - "Infrastructure Automation: Teaching administrative scripting, logic, and task orchestration using PowerShell."
-          - "Cybersecurity & Linux: Instruction in Operating Systems Security and Linux Essentials utilizing Rocky Linux and RHEL."
-          - "IT Strategy: IT Project Management."
-          - "Cisco Networking: Delivering the full CCNA curriculum."
-          - "Cisco Certified Academy Instructor (CCAI): Certified to deliver official Cisco curriculum."
+          - "Spearhead institutional innovation by designing and planning pilot deployment of a custom AI assistant aimed at scaling individualized student support."
+          - "Facilitate student success across IT degree and certificate programs by delivering a rigorous curriculum enhanced by real-world scenarios."
+          - "Deliver individualized out-of-class coaching and mentorship, fostering a culture of continuous lifetime learning."
+
+      - company: Center for Adult and Experiential Learning
+        position: Faculty Assessor
+        location: Appleton, WI
+        start_date: "2021-01"
+        end_date: "2021-12"
+        highlights:
+          - "Evaluated undergraduate and associate degree portfolios from institutions nationwide to determine credit for prior learning."
 
       - company: Fox Valley Technical College
         position: Adjunct Information Technology Instructor
-        location: Appleton, Wisconsin
+        location: Appleton, WI
         start_date: "2013-08"
         end_date: "2014-08"
-
-      - company: Halo Services LLC
-        position: Owner (Self-employed)
-        location: Appleton, Wisconsin
-        start_date: "2018-08"
-        end_date: Present
-        summary: "Provide independent technology consulting for small businesses and property management clients, focusing on cost-effective infrastructure modernization."
         highlights:
-          - "Network Strategy: Designing scalable wireless architectures for multi-tenant environments."
-          - "Security Planning: Advising clients on physical security requirements."
-          - "IT Advisory: Assisting business owners with hardware lifecycle planning."
+          - "Facilitated evening courses in ethical hacking and IT fundamentals before transitioning into a full-time faculty position."
 
-      - company: LinkedIn (AOR)
-        position: AI Training RLHF Specialist (Contract)
+    Instructional Competencies:
+      - name: Systems Administration & IT Management
+        keywords:
+          - Linux Systems Administration (Rocky Linux/RHEL)
+          - IT Project Management
+          - Infrastructure Automation and Scripting (PowerShell)
+          - Enterprise Client and Endpoint Management (CompTIA A+)
+      - name: Technical Support & IT Foundations
+        keywords:
+          - Fundamental IT Concepts & Technical Career Development
+          - Cisco, IT Essentials PC Hardware & Software
+          - Hardware Diagnostics, Device Repair, and Maintenance (CompTIA A+)
+      - name: Cybersecurity
+        keywords:
+          - Information Assurance & Risk Management
+          - Operating Systems Security & Hardening
+          - Ethical Hacking and Penetration Testing
+      - name: Networking
+        keywords:
+          - Cisco CCNA Curriculum
+          - Network Infrastructure
+          - Enterprise Wireless Networking Technologies
+
+    Courses Developed:
+      - name: Curriculum
+        keywords:
+          - Operating Systems Security
+          - IT Project Management
+          - Linux Essentials
+          - Fundamentals of Computing
+          - Infrastructure Automation
+
+    Industry Experience:
+      - company: LinkedIn
+        position: AI Training Contractor
         location: Remote
         start_date: "2026-06"
         end_date: "2026-07"
-        summary: "Conducted Reinforcement Learning from Human Feedback (RLHF) to improve Large Language Model (LLM) accuracy, grounding, and formatting."
-
-      - company: Winnebago County Health Department
-        position: Public Health Professional (Data & IT Operations)
-        location: Oshkosh, Wisconsin
-        start_date: "2021-07"
-        end_date: "2021-12"
-        summary: "Recruited during the COVID-19 response to modernize data workflows and secure information systems for the county's emergency operations."
         highlights:
-          - "Cloud Security: Led efforts to secure and manage the adoption of public cloud resources."
-          - "Data Visualization: Engineered executive dashboards."
-          - "Process Automation: Developed logic-based tools."
+          - "Conducted Reinforcement Learning from Human Feedback (RLHF) to improve Large Language Model (LLM) accuracy, grounding, and formatting."
+          - "Executed high-volume Quality Assurance across dual-platform architectures to meet strict production deadlines."
 
       - company: Winnebago County Health Department
         position: Public Health Professional (LTE)
-        location: Oshkosh, Wisconsin
+        location: Oshkosh, WI
         start_date: "2020-08"
-        end_date: "2021-07"
+        end_date: "2021-12"
+        highlights:
+          - "Led efforts to secure the use of public cloud resources for pandemic response operations."
+          - "Developed standard operating procedures, documentation, and IT resources to aid county disease response."
+          - "Engineered internal spreadsheets with automated logic to replace manual processes, delivering quantitative metrics to leadership."
 
-      - company: CAEL
-        position: Faculty Assessor (Contract)
-        location: Appleton, Wisconsin
-        start_date: "2017-01"
-        end_date: "2021-04"
-        summary: "Served as a Subject Matter Expert (SME) to evaluate the technical competencies of adult learners for university credit equivalency."
-
-      - company: Bemis Company, Inc.
+      - company: Bemis Company
         position: Service Desk Analyst
-        location: Neenah, Wisconsin
+        location: Neenah, WI
         start_date: "2013-09"
         end_date: "2014-08"
+        highlights:
+          - "Supported enterprise operations for a global Fortune 500 company, utilizing SCCM for remote troubleshooting, software deployment, and inventory management."
+          - "Coordinated and delivered training sessions for internal IT and QA personnel focused on IT and organizational security."
 
-      - company: Value Added Distributors, LLC
+      - company: Value Added Distributors
         position: Information Technology Analyst
-        location: De Pere, Wisconsin
+        location: De Pere, WI
         start_date: "2012-03"
         end_date: "2013-09"
+        highlights:
+          - "Replaced legacy UTM Infrastructure with Cisco 1941 Series Routers and implemented controller-based corporate Wi-Fi."
+          - "Assisted in major enterprise migrations, including transitioning subsidiaries to a new ERP platform and upgrading Exchange environments."
+          - "Utilized mobile device management (MDM) to execute an organization-wide migration to modern mobile devices."
 
-    Volunteer:
-      - company: Outagamie Waupaca Library System
-        position: Board Member
-        location: Wisconsin
-        start_date: "2021-01"
-        end_date: Present
-        summary: "I am currently serving as a trustee for the Outagamie Waupaca Library System's Board. OWLS is responsible for promotion of Public Libraries in the Outagamie and Waupaca counties in Wisconsin."
+      - company: Appvion
+        position: Information Technology Analyst Intern
+        location: Appleton, WI
+        start_date: "2008-06"
+        end_date: "2012-03"
 
-    Certifications:
-      - label: Certified Information Security Manager® (CISM)
-        details: ISACA (Issued Jul 2025) - Credential ID 252849412
-      - label: CompTIA Network Vulnerability Assessment Professional (CNVP)
-        details: CompTIA (Issued Aug 2024)
-      - label: CompTIA PenTest+
-        details: CompTIA (Issued Aug 2024) - Credential ID V89WZ4KTMM14QJCQ
-      - label: ITIL 4 Foundation
-        details: PeopleCert (Issued Jul 2022) - Credential ID GR671416839TB
-      - label: Certified Ethical Hacker (CEH)
-        details: EC-Council (Issued Oct 2023) - Credential ID ECC1795426803
-      - label: Microsoft Certified Security, Compliance, and Identity Fundamentals
-        details: Microsoft (Issued Aug 2022) - Credential ID 7AD7FC2F5C6F95EE
-      - label: Microsoft Certified Azure AI Fundamentals
-        details: Microsoft (Issued Jul 2022) - Credential ID A409FE5D7AF1520A
-      - label: Microsoft Certified Power Platform Fundamentals
-        details: Microsoft (Issued Jun 2022) - Credential ID 5471B4B3BED1FB6E
-      - label: Microsoft Certified Azure Data Fundamentals
-        details: Microsoft (Issued Jun 2022) - Credential ID 185CBEDF1574261
-      - label: TestOut IT Fundamentals Pro Certification
-        details: TestOut Corporation (Issued May 2022) - Credential ID 6-1C6-NF7V7
-      - label: Microsoft Certified Azure Fundamentals
-        details: Microsoft (Issued Jun 2022) - Credential ID F3E1A8826D2830ED
-      - label: CCNA Enterprise Networking, Security, and Automation
-        details: Cisco (Issued Feb 2021)
-      - label: PC Pro
-        details: TestOut Corporation (Issued Jan 2021) - Credential ID 6-1C6-7DPKV
-      - label: CompTIA Security+ ce Certification
-        details: CompTIA (Issued Feb 2017) - Credential ID 1GLC5BSHKHE42841
-      - label: Cisco Certified Academy Instructor (CCAI)
-        details: Cisco (Issued Jul 2016)
-      - label: Faculty Assessor
-        details: CAEL (Issued Jan 2017)
+      - company: Fox Valley Technical College
+        position: Help Desk Professional / Network Specialist Intern
+        location: Appleton, WI
+        start_date: "2008-01"
+        end_date: "2008-06"
 
-    Awards:
-      - label: Exceptional Merit Award (2021, 2024, 2025)
-        details: Fox Valley Technical College
-      - label: Great Performance Award (2017, 2018, 2019, 2024, 2025)
-        details: Fox Valley Technical College
+    Honors and Awards:
+      - label: Exceptional Merit Award (3-time recipient)
+        details: Fox Valley Technical College (2021, 2024, 2025)
+      - label: Great Performance Award (6-time recipient)
+        details: Fox Valley Technical College (2017, 2018, 2019, 2024, 2025, 2026)
+
+    University Service & Professional Affiliations:
+      - label: Academic Advisory & Curriculum Design
+        details: Advisory Committee Member for UW-Stout’s B.S. Business Information Technology (2025 - Present); Member of FVTC’s Cybersecurity Degree Creation Sub Team (2015 - 2016).
+      - label: Prior Learning & Student Success
+        details: Served on the Credit for Prior Learning and Prior Learning Assessment Interdepartmental Team at FVTC (2016 - 2019).
+      - label: Industry & Community Engagement
+        details: Trustee Member for the Outagamie Waupaca Library System (2020 - Present); Member of professional organizations, including 920Sec, Women in IT, and Amplify Oshkosh.
+
+    Media Features & Expert Commentary:
+      - company: WBAY-TV Action News 2
+        position: Protect Your Personal Data from Cyberattacks
+        location: Broadcast Television
+        start_date: "2025-05"
+      - company: Wisconsin Public Radio (WPR)
+        position: Cyberattack Causes Service Problems for Northeast Wisconsin Wireless Company
+        location: Broadcast Radio & Digital
+        start_date: "2025-05"
+      - company: FVTC News
+        position: What's Happening to TikTok? Cybersecurity Instructor Has Answers
+        location: Institutional Publication
+        start_date: "2025-01"
+      - company: WBAY-TV Action News 2
+        position: Local Users, Cybersecurity Experts React to Impending TikTok Ban
+        location: Broadcast Television
+        start_date: "2025-01"
+      - company: WLUK FOX 11 News
+        position: Supreme Court Debates TikTok Ban
+        location: Broadcast Television
+        start_date: "2025-01"
+      - company: WFRV Local 5
+        position: TikTok Faces Possible U.S. Ban Amid National Security and Privacy Concerns
+        location: Broadcast Television
+        start_date: "2025-01"
