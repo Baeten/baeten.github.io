@@ -231,3 +231,19 @@ html[data-theme-setting="light"] {
   box-shadow: 0 12px 25px rgba(0,0,0,0.12) !important;
   border: 1px solid var(--global-theme-color) !important;
 }
+
+/* Improve CV Timeline Layout */
+.cv .table td.p-1.pr-2, .cv .table td:first-child {
+  min-width: 130px !important;
+  vertical-align: top;
+}
+.cv .badge {
+  white-space: nowrap !important;
+  font-size: 0.8rem !important;
+  padding: 0.4rem 0.6rem !important;
+  border-radius: 4px !important;
+}
+.cv table td i.fa-location-dot {
+  margin-top: 0.5rem;
+}
+
