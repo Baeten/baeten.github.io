@@ -18,8 +18,7 @@ cv:
         location: Menomonie, WI
         area: Career and Technical Education Leadership
         studyType: Doctor of Education (Ed.D.)
-        start_date: "2022"
-        end_date: "2025"
+        start_date: "2025"
         summary: 'Dissertation: The Influence of Artificial Intelligence Adoption on Educator Perceptions'
 
       - institution: University of Wisconsin Stout
@@ -68,7 +67,7 @@ cv:
       - company: Fox Valley Technical College
         position: Information Technology Instructor
         location: Appleton, WI
-        start_date: "2014-08"
+        start_date: "August 2014"
         end_date: Present
         summary: "Lead Instructor for Infrastructure Automation, Operating Systems Security, IT Project Management, and Linux Essentials."
         highlights:
@@ -79,16 +78,16 @@ cv:
       - company: Center for Adult and Experiential Learning
         position: Faculty Assessor
         location: Appleton, WI
-        start_date: "2021-01"
-        end_date: "2021-12"
+        start_date: "January 2021"
+        end_date: "December 2021"
         highlights:
           - "Evaluated undergraduate and associate degree portfolios from institutions nationwide to determine credit for prior learning."
 
       - company: Fox Valley Technical College
         position: Adjunct Information Technology Instructor
         location: Appleton, WI
-        start_date: "2013-08"
-        end_date: "2014-08"
+        start_date: "August 2013"
+        end_date: "August 2014"
         highlights:
           - "Facilitated evening courses in ethical hacking and IT fundamentals before transitioning into a full-time faculty position."
 
@@ -128,8 +127,8 @@ cv:
       - company: LinkedIn
         position: AI Training Contractor
         location: Remote
-        start_date: "2026-06"
-        end_date: "2026-07"
+        start_date: "June 2026"
+        end_date: "July 2026"
         highlights:
           - "Conducted Reinforcement Learning from Human Feedback (RLHF) to improve Large Language Model (LLM) accuracy, grounding, and formatting."
           - "Executed high-volume Quality Assurance across dual-platform architectures to meet strict production deadlines."
@@ -137,8 +136,8 @@ cv:
       - company: Winnebago County Health Department
         position: Public Health Professional (LTE)
         location: Oshkosh, WI
-        start_date: "2020-08"
-        end_date: "2021-12"
+        start_date: "August 2020"
+        end_date: "December 2021"
         highlights:
           - "Led efforts to secure the use of public cloud resources for pandemic response operations."
           - "Developed standard operating procedures, documentation, and IT resources to aid county disease response."
@@ -147,8 +146,8 @@ cv:
       - company: Bemis Company
         position: Service Desk Analyst
         location: Neenah, WI
-        start_date: "2013-09"
-        end_date: "2014-08"
+        start_date: "September 2013"
+        end_date: "August 2014"
         highlights:
           - "Supported enterprise operations for a global Fortune 500 company, utilizing SCCM for remote troubleshooting, software deployment, and inventory management."
           - "Coordinated and delivered training sessions for internal IT and QA personnel focused on IT and organizational security."
@@ -156,8 +155,8 @@ cv:
       - company: Value Added Distributors
         position: Information Technology Analyst
         location: De Pere, WI
-        start_date: "2012-03"
-        end_date: "2013-09"
+        start_date: "March 2012"
+        end_date: "September 2013"
         highlights:
           - "Replaced legacy UTM Infrastructure with Cisco 1941 Series Routers and implemented controller-based corporate Wi-Fi."
           - "Assisted in major enterprise migrations, including transitioning subsidiaries to a new ERP platform and upgrading Exchange environments."
@@ -166,14 +165,14 @@ cv:
       - company: Appvion
         position: Information Technology Analyst Intern
         location: Appleton, WI
-        start_date: "2008-06"
-        end_date: "2012-03"
+        start_date: "June 2008"
+        end_date: "March 2012"
 
       - company: Fox Valley Technical College
         position: Help Desk Professional / Network Specialist Intern
         location: Appleton, WI
-        start_date: "2008-01"
-        end_date: "2008-06"
+        start_date: "January 2008"
+        end_date: "June 2008"
 
     Honors and Awards:
       - title: Exceptional Merit Award (3-time recipient)
