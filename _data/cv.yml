@@ -54,7 +54,7 @@ cv:
             details: CompTIA (active through 2030)
       - subcategory: Instructor Credentials
         items:
-          - label: "IT Essentials; CCNAv7 (Introduction to Networks; Switching, Router, and Wireless Essentials; Enterprise Networking, Security, and Automation)"
+          - label: "IT Essentials & CCNAv7"
             details: "Cisco Certified Academy Instructor"
       - subcategory: Cloud & Foundational Credentials
         items:
