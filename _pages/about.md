@@ -29,7 +29,6 @@ I sit at the intersection of higher education and practical cybersecurity operat
 @media (min-width: 576px) {
   .profile { 
     width: 50% !important; 
-    margin-top: -3rem !important;
   }
 }
 </style>
