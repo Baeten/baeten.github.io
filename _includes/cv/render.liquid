@@ -192,9 +192,11 @@
                       <li class="list-group-item">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
                     </ul>
                   {% elsif entry.label %}
-                    <div class="card-text font-weight-light">
-                      <strong>{{ entry.label }}:</strong> {{ entry.details }}
-                    </div>
+                    <ul class="card-text font-weight-light list-group list-group-flush" style="list-style-type: none;">
+                      <li class="list-group-item" style="list-style-type: none;">
+                        <strong>{{ entry.label }}:</strong> {{ entry.details }}
+                      </li>
+                    </ul>
                   {% endif %}
                 {% endfor %}
               {% endif %}
