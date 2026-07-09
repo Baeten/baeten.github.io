@@ -82,7 +82,61 @@ nav_order: 6
     border: none;
     border-left: 4px solid #006b75;
   }
+  
+  /* Custom Page Header Styles */
+  header.post-header { 
+    display: none !important; 
+  }
+  .custom-page-header {
+    border-left: 4px solid #006b75;
+    padding-left: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .header-status {
+    font-family: monospace;
+    color: #006b75;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  .header-status i {
+    font-size: 0.6rem;
+    margin-right: 0.5rem;
+  }
+  .header-title {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0 0 1rem 0;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    color: var(--global-text-color);
+  }
+  .header-title .highlight {
+    color: #00b0c7; /* Lighter teal for the accent text if we want, but sticking to #006b75 is safer */
+  }
+  .header-description {
+    font-family: monospace;
+    font-size: 0.95rem;
+    color: #888;
+    max-width: 800px;
+    line-height: 1.5;
+  }
+  
+  /* Dark mode adjustments for header description */
+  html[data-theme='dark'] .header-description {
+    color: #aaa;
+  }
 </style>
+
+<div class="custom-page-header">
+  <div class="header-status"><i class="fa-solid fa-square"></i> INSTRUCTION_CHANNEL_ACTIVE</div>
+  <h1 class="header-title">TEACHING<span style="color: #006b75;">_CORE</span></h1>
+  <div class="header-description">10+ years teaching cybersecurity, systems administration, networking, and support, with current focus on AI integrated instruction.</div>
+</div>
 
 <div class="section-title">LEAD_INSTRUCTOR</div>
 <p>Courses I have developed and am responsible for maintaining the curriculum</p>
