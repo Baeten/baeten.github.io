@@ -10,15 +10,15 @@ nav_order: 6
 <br>
 
 ### Lead Instructor
-*Add any program coordination or lead instructor roles here.*
+Courses I have developed and am responsible for maintaining the curriculum
 
 <br>
 
 ### Current Courses
-*Add your current courses here.*
+Courses I regularly teach
 
 <br>
 
 ### Retired Courses
-*Add courses you have taught in the past here.*
+Courses that have been sunset and are no longer offered.
 
