@@ -87,8 +87,8 @@ nav_order: 6
 <div class="section-title">LEAD_INSTRUCTOR</div>
 <p>Courses I have developed and am responsible for maintaining the curriculum</p>
 
-<div class="row row-cols-1 row-cols-lg-2 g-4 mt-2">
-  <div class="col">
+<div class="row">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-brands fa-linux course-icon"></i>
@@ -100,7 +100,7 @@ nav_order: 6
       <div class="course-track">Information Technology</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-shield-halved course-icon"></i>
@@ -112,7 +112,7 @@ nav_order: 6
       <div class="course-track">Cybersecurity</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-list-check course-icon"></i>
@@ -124,7 +124,7 @@ nav_order: 6
       <div class="course-track">Information Technology</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-network-wired course-icon"></i>
@@ -136,7 +136,7 @@ nav_order: 6
       <div class="course-track">Information Technology</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-wifi course-icon"></i>
@@ -153,8 +153,8 @@ nav_order: 6
 <div class="section-title">CURRENT_COURSES</div>
 <p>Courses I regularly teach</p>
 
-<div class="row row-cols-1 row-cols-lg-2 g-4 mt-2">
-  <div class="col">
+<div class="row">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-lock course-icon"></i>
@@ -166,7 +166,7 @@ nav_order: 6
       <div class="course-track">Cybersecurity</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-user-secret course-icon"></i>
@@ -178,7 +178,7 @@ nav_order: 6
       <div class="course-track">Cybersecurity</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-terminal course-icon"></i>
@@ -190,7 +190,7 @@ nav_order: 6
       <div class="course-track">Information Technology</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-briefcase course-icon"></i>
@@ -202,7 +202,7 @@ nav_order: 6
       <div class="course-track">Information Technology</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-desktop course-icon"></i>
@@ -214,7 +214,7 @@ nav_order: 6
       <div class="course-track">Information Technology</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-screwdriver-wrench course-icon"></i>
@@ -226,7 +226,7 @@ nav_order: 6
       <div class="course-track">Information Technology</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-microchip course-icon"></i>
@@ -238,7 +238,7 @@ nav_order: 6
       <div class="course-track">Information Technology</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-signal course-icon"></i>
@@ -255,8 +255,8 @@ nav_order: 6
 <div class="section-title">RETIRED_COURSES</div>
 <p>Courses that have been sunset and are no longer offered.</p>
 
-<div class="row row-cols-1 row-cols-lg-2 g-4 mt-2">
-  <div class="col">
+<div class="row">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-file-shield course-icon"></i>
@@ -268,7 +268,7 @@ nav_order: 6
       <div class="course-track">Cybersecurity</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-brands fa-linux course-icon"></i>
@@ -280,7 +280,7 @@ nav_order: 6
       <div class="course-track">Information Technology</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-computer course-icon"></i>
@@ -292,7 +292,7 @@ nav_order: 6
       <div class="course-track">Information Technology</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-lightbulb course-icon"></i>
@@ -304,7 +304,7 @@ nav_order: 6
       <div class="course-track">Information Technology</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-solid fa-laptop course-icon"></i>
@@ -316,7 +316,7 @@ nav_order: 6
       <div class="course-track">Information Technology</div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-12 col-md-6 mb-4">
     <div class="course-card hoverable">
       <div class="course-header">
         <i class="fa-regular fa-compass course-icon"></i>
