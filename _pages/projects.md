@@ -17,6 +17,11 @@ horizontal: false
     max-width: 25%;
   }
 }
+.card-title {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
 </style>
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
