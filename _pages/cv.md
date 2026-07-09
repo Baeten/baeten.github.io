@@ -11,4 +11,4 @@ toc:
   sidebar: left
 ---
 
-<div style="margin-bottom: 250px;"></div>
+<div style="margin-bottom: 80vh;"></div>
