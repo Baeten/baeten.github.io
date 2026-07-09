@@ -6,7 +6,7 @@ subtitle: Information Technology Instructor at <a href='https://www.fvtc.edu/'>F
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: FVTC_Cybersecurity_Avatar.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Fox Valley Technical College</p>
@@ -27,3 +27,9 @@ latest_posts:
 ---
 
 I sit at the intersection of higher education and practical cybersecurity operations. With over a decade of experience and a Doctor of Education (Ed.D.), I don't just teach IT concepts; I design workforce-ready curricula that prepare students for the hostile reality of modern cyber threats.
+
+<style>
+@media (min-width: 576px) {
+  .profile { width: 50% !important; }
+}
+</style>
