@@ -9,7 +9,7 @@ nav_order: 6
 
 <style>
   .course-card {
-    border-left: 4px solid #006b75;
+    border-left: 4px solid var(--global-theme-color);
     background-color: var(--global-card-bg-color, #ffffff);
     padding: 1.5rem;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
@@ -27,7 +27,7 @@ nav_order: 6
     margin-bottom: 0.5rem;
   }
   .course-icon {
-    color: #006b75;
+    color: var(--global-theme-color);
     margin-right: 0.75rem;
     font-size: 1.5rem;
     width: 24px;
@@ -40,7 +40,7 @@ nav_order: 6
   }
   .course-subtitle {
     font-family: monospace;
-    color: #00b0c7;
+    color: var(--global-theme-color);
     font-size: 0.8rem;
     text-transform: uppercase;
     margin-left: 2.25rem;
@@ -65,7 +65,7 @@ nav_order: 6
   }
   .section-title {
     font-family: monospace;
-    color: #006b75;
+    color: var(--global-theme-color);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.4rem;
@@ -80,7 +80,7 @@ nav_order: 6
   /* Override Al-folio default card borders */
   .cv .card, .projects .card, .course-card {
     border: none;
-    border-left: 4px solid #006b75;
+    border-left: 4px solid var(--global-theme-color);
   }
   
   /* Custom Page Header Styles */
@@ -88,13 +88,13 @@ nav_order: 6
     display: none !important; 
   }
   .custom-page-header {
-    border-left: 4px solid #006b75;
+    border-left: 4px solid var(--global-theme-color);
     padding-left: 1.5rem;
     margin-bottom: 3rem;
   }
   .header-status {
     font-family: monospace;
-    color: #006b75;
+    color: var(--global-theme-color);
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -116,7 +116,7 @@ nav_order: 6
     color: var(--global-text-color);
   }
   .header-title .highlight {
-    color: #00b0c7; /* Lighter teal for the accent text if we want, but sticking to #006b75 is safer */
+    color: var(--global-theme-color); /* Lighter teal for the accent text if we want, but sticking to var(--global-theme-color) is safer */
   }
   .header-description {
     font-family: monospace;
