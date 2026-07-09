@@ -189,27 +189,27 @@ cv:
         details: Trustee Member for the Outagamie Waupaca Library System (2020 - Present); Member of professional organizations, including 920Sec, Women in IT, and Amplify Oshkosh.
 
     Media Features & Expert Commentary:
-      - company: WBAY-TV Action News 2
+      - company: "WBAY-TV Action News 2 | Broadcast Television"
         position: Protect Your Personal Data from Cyberattacks
-        location: Broadcast Television
-        start_date: "2025-05"
-      - company: Wisconsin Public Radio (WPR)
+        start_date: "Aired May 21, 2025"
+        url: "https://www.wbay.com/2025/05/21/protect-your-personal-data-cyberattacks/"
+      - company: "Wisconsin Public Radio (WPR) | Broadcast Radio & Digital"
         position: Cyberattack Causes Service Problems for Northeast Wisconsin Wireless Company
-        location: Broadcast Radio & Digital
-        start_date: "2025-05"
-      - company: FVTC News
+        start_date: "Published May 21, 2025"
+        url: "https://www.wpr.org/news/cyberattack-northeast-wisconsin-wireless-company-service-problems"
+      - company: "FVTC News | Institutional Publication"
         position: What's Happening to TikTok? Cybersecurity Instructor Has Answers
-        location: Institutional Publication
-        start_date: "2025-01"
-      - company: WBAY-TV Action News 2
+        start_date: "Published January 16, 2025"
+        url: "https://news.fvtc.edu/news/story/whats-happening-to-tiktok-cybersecurity-instructor-has-answers/"
+      - company: "WBAY-TV Action News 2 | Broadcast Television"
         position: Local Users, Cybersecurity Experts React to Impending TikTok Ban
-        location: Broadcast Television
-        start_date: "2025-01"
-      - company: WLUK FOX 11 News
-        position: Supreme Court Debates TikTok Ban
-        location: Broadcast Television
-        start_date: "2025-01"
-      - company: WFRV Local 5
+        start_date: "Aired January 10, 2025"
+        url: "https://www.wbay.com/2025/01/10/local-users-cybersecurity-experts-react-impending-tiktok-ban/"
+      - company: "WLUK FOX 11 News | Broadcast Television"
+        position: Supreme Court Debates TikTok Ban: Small Businesses in Fox Valley Fear Marketing Impact
+        start_date: "Aired January 10, 2025"
+        url: "https://fox11online.com/news/local/fox-cities/supreme-court-debates-tiktok-ban-small-businesses-in-fox-valley-fear-marketing-impact"
+      - company: "WFRV Local 5 | Broadcast Television"
         position: TikTok Faces Possible U.S. Ban Amid National Security and Privacy Concerns
-        location: Broadcast Television
-        start_date: "2025-01"
+        start_date: "Aired January 10, 2025"
+        url: "https://www.wearegreenbay.com/news/local-news/tiktok-faces-possible-u-s-ban-amid-national-security-and-privacy-concerns/"
