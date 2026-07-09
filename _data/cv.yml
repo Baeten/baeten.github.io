@@ -54,14 +54,14 @@ cv:
             details: CompTIA (active through 2030)
       - subcategory: Instructor Credentials
         items:
-          - label: Cisco Certified Academy Instructor
-            details: IT Essentials; CCNAv7 (Introduction to Networks; Switching, Router, and Wireless Essentials; Enterprise Networking, Security, and Automation)
+          - label: "IT Essentials; CCNAv7 (Introduction to Networks; Switching, Router, and Wireless Essentials; Enterprise Networking, Security, and Automation)"
+            details: "Cisco Certified Academy Instructor"
       - subcategory: Cloud & Foundational Credentials
         items:
-          - label: Microsoft Fundamentals
-            details: Azure, Azure AI, Azure Data, Security, Compliance, and Identity, Power Platform
-          - label: TestOut
-            details: IT Fundamentals Pro, PC Pro
+          - label: "Azure, Azure AI, Azure Data, Security, Compliance, and Identity, Power Platform"
+            details: "Microsoft Fundamentals"
+          - label: "IT Fundamentals Pro, PC Pro"
+            details: "TestOut"
 
     Academic & Teaching Experience:
       - company: Fox Valley Technical College
