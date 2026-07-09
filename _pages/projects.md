@@ -10,14 +10,6 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
-<style>
-@media (min-width: 768px) {
-  .row-cols-md-5 > * {
-    flex: 0 0 20%;
-    max-width: 20%;
-  }
-}
-</style>
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -37,7 +29,7 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-5">
+  <div class="row row-cols-1 row-cols-md-4">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
@@ -63,7 +55,7 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-5">
+  <div class="row row-cols-1 row-cols-md-4">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
