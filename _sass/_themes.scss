@@ -207,11 +207,27 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
-/* Global card overrides for consistent design */
-.cv .card, .projects .card, .news .card, .publications .card {
+/* Global card overrides for consistent design on text-heavy pages */
+.cv .card, .news .card, .publications .card {
   border: none !important;
   border-left: 4px solid var(--global-theme-color) !important;
   border-radius: 2px !important;
   box-shadow: 0 4px 6px rgba(0,0,0,0.05) !important;
   background-color: var(--global-card-bg-color) !important;
+}
+
+/* Make project cards pop and feel clickable */
+.projects .card {
+  border: 1px solid var(--global-divider-color) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.06) !important;
+  background-color: var(--global-card-bg-color) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease !important;
+  overflow: hidden;
+}
+
+.projects .card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12) !important;
+  border: 1px solid var(--global-theme-color) !important;
 }
