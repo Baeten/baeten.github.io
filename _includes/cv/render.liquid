@@ -124,9 +124,8 @@
         {% assign vol = cv.sections.Volunteer | default: empty_array %}
         {% assign combined_experience = exp | concat: vol %}
         {% if combined_experience.size > 0 %}
-          <a class="anchor" id="experience"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Experience</h3>
+            <h3 class="card-title font-weight-medium" id="experience">Experience</h3>
             <div>
               {% assign entries = combined_experience %}
               {% include cv/experience.liquid %}
@@ -144,9 +143,8 @@
             {% continue %}
           {% endif %}
 
-          <a class="anchor" id="{{ section_title | slugify }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
+            <h3 class="card-title font-weight-medium" id="{{ section_title | slugify }}">{{ section_title }}</h3>
             <div>
               {% if section_title == 'Education' %}
                 {% assign entries = section_entries %}
