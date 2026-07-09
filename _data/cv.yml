@@ -15,16 +15,18 @@ cv:
   sections:
     Education:
       - institution: UW-Stout Polytechnic
-        location: Wisconsin
+        location: Menomonie, WI
         area: Career and Technical Education Leadership
         studyType: Doctor of Education - Ed.D.
+        start_date: "2022"
+        end_date: "2025"
         summary: 'Dissertation: "The Influence of Artificial Intelligence Adoption on Educator Perceptions"'
         highlights:
           - Investigated the impact of Artificial Intelligence integration on faculty attitudes, instructional strategies, and workforce readiness in technical education.
           - Recipient of the Howard and Charlotte Lee Scholarship and the Career & Technical Education Scholarship.
 
       - institution: UW-Stout Polytechnic
-        location: Wisconsin
+        location: Menomonie, WI
         area: Information and Communication Technologies
         studyType: Master of Science (MS)
         start_date: "2012"
@@ -32,7 +34,7 @@ cv:
         score: "4.0"
 
       - institution: UW-Stout Polytechnic
-        location: Wisconsin
+        location: Menomonie, WI
         area: Information and Communication Technologies
         studyType: Bachelor of Science (BS)
         start_date: "2010"
@@ -42,7 +44,7 @@ cv:
           - "Activities and societies: Stout Academic Honor Society (AHS)"
 
       - institution: Fox Valley Technical College
-        location: Wisconsin
+        location: Appleton, WI
         area: Information Technology & Networking
         studyType: Associate of Applied Science (AAS)
         start_date: "2008"
@@ -168,7 +170,7 @@ cv:
         details: CAEL (Issued Jan 2017)
 
     Awards:
-      - title: Exceptional Merit Award (2021, 2024, 2025)
-        awarder: Fox Valley Technical College
-      - title: Great Performance Award (2017, 2018, 2019, 2024, 2025)
-        awarder: Fox Valley Technical College
+      - label: Exceptional Merit Award (2021, 2024, 2025)
+        details: Fox Valley Technical College
+      - label: Great Performance Award (2017, 2018, 2019, 2024, 2025)
+        details: Fox Valley Technical College
