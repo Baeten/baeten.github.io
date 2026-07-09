@@ -77,11 +77,7 @@ nav_order: 6
   .row {
     margin-bottom: 2rem;
   }
-  /* Override Al-folio default card borders */
-  .cv .card, .projects .card, .course-card {
-    border: none;
-    border-left: 4px solid var(--global-theme-color);
-  }
+  /* (Global card overrides moved to _sass/_themes.scss) */
   
   /* Custom Page Header Styles */
   header.post-header { 
