@@ -5,7 +5,7 @@ permalink: /projects/
 description: Explore a curated collection of self-hosted, open-source projects designed to help students build practical skills, manage real-world services, and expand their own lab environments.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [self-hosting]
 horizontal: false
 ---
 
