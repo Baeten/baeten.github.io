@@ -1,6 +1,6 @@
 cv:
-  name: Tyler Michael Baeten
-  label: IT & Cybersecurity Instructor | Ed.D.
+  name: Tyler Baeten
+  label: Information Technology Instructor
   email: tyler.baeten8264@fvtc.edu
   location: Appleton, Wisconsin, United States
   image: ""
@@ -40,27 +40,29 @@ cv:
         studyType: Associate of Applied Science (AAS)
         start_date: "2009"
 
-    Management & Service Credentials:
-      - label: Certified Information Security Manager (CISM)
-        details: ISACA (active through 2029)
-      - label: ITIL Foundations v4
-        details: PeopleCert (active through 2027)
-
-    Cybersecurity Credentials:
-      - label: Certified Ethical Hacker (CEH)
-        details: EC-Council (active through 2026)
-      - label: Security+, PenTest+, Network Vulnerability Assessment Professional
-        details: CompTIA (active through 2030)
-
-    Instructor Credentials:
-      - label: Cisco Certified Academy Instructor
-        details: IT Essentials; CCNAv7 (Introduction to Networks; Switching, Router, and Wireless Essentials; Enterprise Networking, Security, and Automation)
-
-    Cloud & Foundational Credentials:
-      - label: Microsoft Fundamentals
-        details: Azure, Azure AI, Azure Data, Security, Compliance, and Identity, Power Platform
-      - label: TestOut
-        details: IT Fundamentals Pro, PC Pro
+    Industry Certifications:
+      - subcategory: Management & Service Credentials
+        items:
+          - label: Certified Information Security Manager (CISM)
+            details: ISACA (active through 2029)
+          - label: ITIL Foundations v4
+            details: PeopleCert (active through 2027)
+      - subcategory: Cybersecurity Credentials
+        items:
+          - label: Certified Ethical Hacker (CEH)
+            details: EC-Council (active through 2026)
+          - label: Security+, PenTest+, Network Vulnerability Assessment Professional
+            details: CompTIA (active through 2030)
+      - subcategory: Instructor Credentials
+        items:
+          - label: Cisco Certified Academy Instructor
+            details: IT Essentials; CCNAv7 (Introduction to Networks; Switching, Router, and Wireless Essentials; Enterprise Networking, Security, and Automation)
+      - subcategory: Cloud & Foundational Credentials
+        items:
+          - label: Microsoft Fundamentals
+            details: Azure, Azure AI, Azure Data, Security, Compliance, and Identity, Power Platform
+          - label: TestOut
+            details: IT Fundamentals Pro, PC Pro
 
     Academic & Teaching Experience:
       - company: Fox Valley Technical College

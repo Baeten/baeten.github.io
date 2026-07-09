@@ -157,6 +157,9 @@
               {% elsif section_title == 'Instructional Competencies' or section_title == 'Courses Developed' %}
                 {% assign entries = section_entries %}
                 {% include cv/skills.liquid %}
+              {% elsif section_title == 'Industry Certifications' %}
+                {% assign entries = section_entries %}
+                {% include cv/nested_certificates.liquid %}
               {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
