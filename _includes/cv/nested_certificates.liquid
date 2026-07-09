@@ -1,19 +1,21 @@
 <div class="card-text font-weight-light">
-  {% for group in entries %}
-    <h4 style="margin-top: 1.5rem; margin-bottom: 0.5rem; font-size: 1.1rem; font-weight: 500; color: var(--global-theme-color);">{{ group.subcategory }}</h4>
-    <div class="list-group list-group-flush">
+  <table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
+    {% for group in entries %}
+      <tr>
+        <td colspan="2" style="padding-top: 1.5rem; padding-bottom: 0.5rem;">
+          <h4 style="margin: 0; font-size: 1.1rem; font-weight: 500; color: var(--global-theme-color);">{{ group.subcategory }}</h4>
+        </td>
+      </tr>
       {% for entry in group.items %}
-        <div class="list-group-item" style="padding-left: 0; padding-right: 0; border: none; padding-top: 0.25rem; padding-bottom: 0.25rem;">
-          <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4 font-weight-bold" style="vertical-align: top;">
-              {{ entry.label }}
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-8 font-weight-light text">
-              {{ entry.details }}
-            </div>
-          </div>
-        </div>
+        <tr>
+          <td class="p-1 pr-2 font-weight-bold" style="min-width: 250px; vertical-align: top;">
+            {{ entry.label }}
+          </td>
+          <td class="p-1 pl-2 font-weight-light text" style="vertical-align: top;">
+            {{ entry.details }}
+          </td>
+        </tr>
       {% endfor %}
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </table>
 </div>
