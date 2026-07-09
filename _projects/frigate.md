@@ -3,7 +3,7 @@ layout: page
 title: Frigate
 description: NVR with realtime local object detection for IP cameras.
 img: assets/img/project-icons/frigate-icon.webp
-importance: 6
+importance: 7
 category: self-hosting
 ---
 

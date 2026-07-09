@@ -3,7 +3,7 @@ layout: page
 title: AdGuard Home
 description: Network-wide ads & trackers blocking DNS server.
 img: assets/img/project-icons/adguardhome-icon.png
-importance: 2
+importance: 4
 category: self-hosting
 ---
 
