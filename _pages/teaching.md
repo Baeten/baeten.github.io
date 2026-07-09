@@ -2,14 +2,23 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Courses I have taught and currently teach.
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+<br>
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+### Lead Instructor
+*Add any program coordination or lead instructor roles here.*
 
-{% include courses.liquid %}
+<br>
+
+### Current Courses
+*Add your current courses here.*
+
+<br>
+
+### Retired Courses
+*Add courses you have taught in the past here.*
+
