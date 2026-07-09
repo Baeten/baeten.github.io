@@ -8,9 +8,6 @@ profile:
   align: right
   image: FVTC_Cybersecurity_Avatar.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Fox Valley Technical College</p>
-    <p>Wisconsin</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -30,6 +27,9 @@ I sit at the intersection of higher education and practical cybersecurity operat
 
 <style>
 @media (min-width: 576px) {
-  .profile { width: 50% !important; }
+  .profile { 
+    width: 50% !important; 
+    margin-top: -3rem !important;
+  }
 }
 </style>
