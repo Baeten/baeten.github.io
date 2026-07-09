@@ -54,3 +54,4 @@ Docker note: v1 uses `/srv/jekyll/bin/entry_point.sh` and serves from container-
 - Do not add starter-local npm build scripts for theme/runtime assets.
 - Keep docs aligned with pluginized v1 ownership.
 - If you create or keep local overrides of plugin-owned files, run `bundle exec al-folio upgrade overrides audit` and commit `.al-folio-overrides.yml` after review.
+- When the USER asks to create or edit a "Tech Note" (or "Article"), always map this to the `_posts` directory (the blog collection).
