@@ -1,7 +1,7 @@
 cv:
   name: Tyler Michael Baeten
   label: IT & Cybersecurity Instructor | Ed.D.
-  email: tylerbaeten@pm.me
+  email: tyler.baeten8264@fvtc.edu
   location: Appleton, Wisconsin, United States
   image: ""
   summary: Doctor of Education (Ed.D.) and IT educator with 10+ years of experience developing and delivering online curricula in cybersecurity, networking, and systems administration. Proven ability to translate complex technical concepts into engaging, student-centered instruction for adult and non-traditional learners. Experienced in academic innovation, AI-enhanced learning technologies, and national assessment work through CAEL. Dedicated to improving student success through accessible technology education.
@@ -174,10 +174,10 @@ cv:
         end_date: "2008-06"
 
     Honors and Awards:
-      - label: Exceptional Merit Award (3-time recipient)
-        details: Fox Valley Technical College (2021, 2024, 2025)
-      - label: Great Performance Award (6-time recipient)
-        details: Fox Valley Technical College (2017, 2018, 2019, 2024, 2025, 2026)
+      - title: Exceptional Merit Award (3-time recipient)
+        awarder: Fox Valley Technical College (2021, 2024, 2025)
+      - title: Great Performance Award (6-time recipient)
+        awarder: Fox Valley Technical College (2017, 2018, 2019, 2024, 2025, 2026)
 
     University Service & Professional Affiliations:
       - label: Academic Advisory & Curriculum Design
