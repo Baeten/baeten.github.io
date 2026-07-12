@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://Baeten.github.io/sitemap.xml
