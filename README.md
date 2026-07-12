@@ -7,4 +7,3 @@ This website is hosted on GitHub Pages and can be viewed live at: **[https://bae
 ## About
 This repository contains the Markdown, HTML, and configuration files used to generate my personal website. It features sections for my professional background, homelab projects, teaching experience, and contact information.
 
-*Built with Jekyll*
