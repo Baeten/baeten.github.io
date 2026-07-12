@@ -6,7 +6,7 @@ subtitle: Information Technology Instructor at <a href='https://www.fvtc.edu/'>F
 
 profile:
   align: right
-  image: FVTC_Cybersecurity_Avatar.png
+  image: FVTC_Cybersecurity_Avatar.jpg
   image_circular: false # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
