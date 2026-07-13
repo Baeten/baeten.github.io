@@ -12,21 +12,38 @@ toc:
 ---
 
 <style>
-  /* Fix horizontal scrolling on mobile devices caused by long CV date badges */
-  .cv .badge,
-  .cv .date {
-    white-space: normal !important;
-    word-break: break-word;
-    text-align: center;
-    line-height: 1.2;
-    padding: 0.5rem;
-  }
-  
-  /* Ensure the timeline container itself can shrink gracefully on small screens */
-  .cv table, 
-  .cv .table-responsive {
-    table-layout: auto !important;
-    width: 100% !important;
-    overflow-x: hidden !important;
+  /* Fix horizontal scrolling and clipping on mobile devices for the CV timeline */
+  @media (max-width: 576px) {
+    /* Force the side-by-side timeline columns to stack vertically on small screens */
+    .cv .list-group-item .row {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    
+    /* Make both the date column and content column take 100% width */
+    .cv .list-group-item .row > [class*="col-"] {
+      max-width: 100% !important;
+      width: 100% !important;
+      flex: 0 0 100% !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+    
+    /* Left-align the date badge so it doesn't try to center and overflow the left edge */
+    .cv .date-column .d-flex {
+      align-items: flex-start !important;
+      margin-bottom: 0.5rem;
+    }
+    
+    .cv .badge {
+      white-space: normal !important;
+      word-break: break-word;
+      text-align: left !important;
+    }
+    
+    /* Adjust location text to align left under the date */
+    .cv .date-column .location {
+      text-align: left !important;
+    }
   }
 </style>
