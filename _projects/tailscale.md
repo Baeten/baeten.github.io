@@ -22,27 +22,27 @@ The beauty of Tailscale lies in its ability to overlay a flat, secure subnet acr
 
 ```mermaid
 graph TD
-    subgraph The Tailnet Overlay (100.x.y.z)
+    subgraph Tailnet[The Tailnet Overlay]
         NodeA["Laptop (Starbucks Wi-Fi)"]
         NodeB["Mobile Phone (5G Cell)"]
         NodeC["Home Server (Behind CGNAT)"]
         NodeD["VPS (AWS / DigitalOcean)"]
     end
     
-    subgraph Tailscale Coordination Server (Control Plane)
+    subgraph ControlPlane[Tailscale Coordination Server]
         Coord["Authentication & Key Exchange (DERP)"]
     end
 
-    NodeA -.- Coord
-    NodeB -.- Coord
-    NodeC -.- Coord
-    NodeD -.- Coord
+    NodeA -.-> Coord
+    NodeB -.-> Coord
+    NodeC -.-> Coord
+    NodeD -.-> Coord
     
-    NodeA <-->|"Encrypted WireGuard Tunnel"| NodeC
-    NodeB <-->|"Encrypted WireGuard Tunnel"| NodeC
-    NodeA <-->|"Encrypted WireGuard Tunnel"| NodeD
-    NodeB <-->|"Encrypted WireGuard Tunnel"| NodeD
-    NodeC <-->|"Encrypted WireGuard Tunnel"| NodeD
+    NodeA <--> NodeC
+    NodeB <--> NodeC
+    NodeA <--> NodeD
+    NodeB <--> NodeD
+    NodeC <--> NodeD
 ```
 
 In this architecture, the Tailscale Coordination Server acts as the matchmaker. Once two nodes authenticate and exchange public keys, the control server steps out of the way. The nodes establish a direct, encrypted WireGuard tunnel over UDP. If a direct peer-to-peer connection is impossible due to restrictive firewalls, Tailscale seamlessly falls back to routing encrypted traffic through global DERP (Designated Encrypted Relay for Packets) servers.
