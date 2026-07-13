@@ -38,11 +38,11 @@ graph TD
     NodeC -.- Coord
     NodeD -.- Coord
     
-    NodeA <=="Encrypted WireGuard Tunnel"==> NodeC
-    NodeB <=="Encrypted WireGuard Tunnel"==> NodeC
-    NodeA <=="Encrypted WireGuard Tunnel"==> NodeD
-    NodeB <=="Encrypted WireGuard Tunnel"==> NodeD
-    NodeC <=="Encrypted WireGuard Tunnel"==> NodeD
+    NodeA <-->|"Encrypted WireGuard Tunnel"| NodeC
+    NodeB <-->|"Encrypted WireGuard Tunnel"| NodeC
+    NodeA <-->|"Encrypted WireGuard Tunnel"| NodeD
+    NodeB <-->|"Encrypted WireGuard Tunnel"| NodeD
+    NodeC <-->|"Encrypted WireGuard Tunnel"| NodeD
 ```
 
 In this architecture, the Tailscale Coordination Server acts as the matchmaker. Once two nodes authenticate and exchange public keys, the control server steps out of the way. The nodes establish a direct, encrypted WireGuard tunnel over UDP. If a direct peer-to-peer connection is impossible due to restrictive firewalls, Tailscale seamlessly falls back to routing encrypted traffic through global DERP (Designated Encrypted Relay for Packets) servers.
