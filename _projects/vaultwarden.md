@@ -2,6 +2,7 @@
 layout: page
 title: Vaultwarden
 description: A lightweight, open-source password manager compatible with Bitwarden clients, written in Rust.
+img: assets/img/project-icons/vaultwarden-icon.webp
 importance: 7
 category: self-hosting
 mermaid:

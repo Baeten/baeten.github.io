@@ -2,6 +2,7 @@
 layout: page
 title: OpenCloud
 description: A secure, self-hosted file sharing and collaboration platform providing complete data sovereignty.
+img: assets/img/project-icons/opencloud-icon.png
 importance: 8
 category: self-hosting
 mermaid:

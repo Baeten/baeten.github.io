@@ -2,6 +2,7 @@
 layout: page
 title: Tailscale
 description: A zero-configuration mesh VPN that securely connects your devices using WireGuard.
+img: assets/img/project-icons/tailscale-icon.webp
 importance: 9
 category: self-hosting
 mermaid:
